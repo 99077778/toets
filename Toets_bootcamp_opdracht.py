@@ -126,15 +126,34 @@
 # Dit blijf je herhalen totdat de gebruiker een getal tussen 0 en 10 heeft ingevoerd.
 # Voert de gebruiker iets anders in dan een getal: geef een foutmelding.
 
+
+# var = 0
+# var = int(var)
+
+# while var == 0:
+#     try:
+#         var = input('Vul een cijfer in van 0 - 10: ')
+#         if 0 <= var <= 10:
+#            break
+#         else:
+#            print("Voer een cijfer in tussen 0 en 10")
+#     except ValueError:
+#         print("Voer een cijfer in tussen 0 en 10")
+
+
  
 
 # Opdracht 10:
 # # repareer de volgende code:
-# MAX == 20
-# getal = print("Voer een getal in")
-# if getal >> MAX
-#    input(f"Het getal is groter dan [MAX]")
-# else getal = MAX
-#   input(f"Het getal is kleiner dan [MAX]")
-# else
-#    input(f"Het getal is gelijk aan (MAX)")
+
+    # MAX = 20
+    # getal = input("Voer een getal in: ")
+
+    # getal = int(getal)
+
+    # if getal > MAX:
+    #     input(f"Het getal is groter dan {MAX}")
+    # elif getal < MAX:
+    #     input(f"Het getal is kleiner dan {MAX}")
+    # else:
+    #     input(f"Het getal is gelijk aan {MAX}")
